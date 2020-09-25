@@ -15,7 +15,7 @@ class IconDataDemo extends StatelessWidget {
     return Container(
       child:  Icon(
         //参考 icon constans
-         IconData(0xe567,
+         const IconData(0xe567,
             fontFamily: 'MaterialIcons', matchTextDirection: true),
         color: this.curColor,
         size: 30.0,
